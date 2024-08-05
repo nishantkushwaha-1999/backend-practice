@@ -160,8 +160,13 @@ const logoutUser = asyncHandler(async (req, res) => {
     )
 });
 
+const changePassword = asyncHandler(async (req, res) => {
+    // code
+})
+
 export {
     registerUser,
     loginUser,
-    logoutUser
+    logoutUser,
+    changePassword
 }
